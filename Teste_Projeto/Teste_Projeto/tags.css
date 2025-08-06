@@ -1,0 +1,38 @@
+body {
+    background-color:  #000066;
+    font-family: Verdana;
+    background-image: url(img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 110vh;
+    background-attachment: fixed;
+    margin: 0%;
+    margin-left: 10px;
+}
+
+h1 {
+    background-color: #000;
+    text-align: center;
+    font-size: 2.5em;
+    color: white;
+}
+
+.container{
+    max-width: auto 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.item {
+    background-color: #000;
+    font-size: 1.5em;
+    color: white;
+}
+
+.footer {
+    background-color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: white;
+}
