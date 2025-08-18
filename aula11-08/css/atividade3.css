@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#camada1 {
+  position: relative;
+  float: left;
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  color: black;
+  font-size: 12px;
+  text-align: center;
+  z-index: 2;
+}
+
+#camada2 {
+  position: relative;
+  float: left;
+  height: 100px;
+  width: 992px;
+  background-color: red;
+  color: black;
+  font-size: 12px;
+  text-align: center;
+  z-index: 1;
+}
+
+#camada3 {
+  position: relative;
+  clear: left;
+  height: 30px;
+  background-color: lime;
+  color: black;
+  font-size: 12px;
+  text-align: center;
+  z-index: 2;
+}
+
+#camada4 {
+  position: relative;
+  height: 400px;
+  background-color: yellow;
+  border: 5px solid red;
+  color: black;
+  font-size: 12px;
+  text-align: center;
+  z-index: 1;
+}
+
+#camada5 {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  color: black;
+  font-size: 12px;
+  text-align: center;
+  z-index: 0;
+}
+
+#fundo{
+    position: relative;
+    width: 80%;
+    height: 600px;
+    background-color: #ccc;
+    margin: auto;
+    font-weight: bold;
+}

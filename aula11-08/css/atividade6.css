@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+main{
+   position: relative;
+   width: 90%;
+   height: 700px;
+   background-color:rgb(144, 204, 66);
+   margin: auto;
+   font-size: 16px;
+   color: #000;
+   font-family: Verdana;
+   text-align: center;
+}
+
+#cabecalho{
+   position: relative;
+   width: 100%;
+   height: 100px;
+   background-color:rgb(147, 255, 5);
+   display: flex;/*ativa recurso de alinhamento no componente*/
+   align-items: center;/*alinhamento vertical*/
+   justify-content: center;/*alinhamento horizontal*/
+}
+
+#cabecalho h1{
+   font-size: 30px;
+   color: black;
+}
+
+#lado_esquerdo{
+    position: relative;
+    width: 30%;
+    height: 500px;
+    background-color: rgb(50, 213, 235);
+    float: left;
+    text-align: left;
+}
+
+.nav-lateral {
+    position: absolute;
+    top: 27%;     
+    left: 50%;  
+    transform: translate(-50%, -50%); 
+    width: 90%;   
+    height: 224px;  
+    background-color: #ffffff;
+    color: black;
+    font-size: 15px;
+    text-align: left;
+    display: flex;
+}
+
+#parte_debaixo{
+    position: absolute;
+    top: 75%;     
+    left: 50%;  
+    transform: translate(-50%, -50%); 
+    width: 90%;   
+    height: 224px; 
+    background-color: #ffffff;
+    color: black;
+    font-size: 15px;
+    text-align: left;
+    display: flex;
+}
+
+#lado_direito{
+     position: relative;
+     float: left;
+     width: 70%;
+     height: 500px;
+     background-color: rgb(135, 14, 255);
+     float: left;
+     text-align: left;
+}
+
+#artigo_direito {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 97%;
+    height: 500px;
+    background-color: rgb(252, 235, 204);
+    color: black;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+#titulo_article {
+    background-color: rgb(50, 213, 235); 
+    padding: 0;
+    width: 100%; 
+    text-align: center;
+    line-height: 30px; 
+}
+
+#paragrafo{
+    width: 100%;
+    height: 160px;         
+    margin: 10px auto;     
+    color:white;     
+    font-size: 12px;
+    background-color: rgb(194, 73, 73);
+}
+
+#areaimg{
+   position: relative;
+   float: left;
+   background-color: lightblue;
+   width: 100%;
+   height: 230px;
+}
+
+footer{
+   position: relative;
+   width: 100%;
+   height: 100px;
+   background-color: #5f0707;
+   display: flex;
+   color: #ffffff;
+   text-align: left;
+}
