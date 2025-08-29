@@ -1,0 +1,51 @@
+       #camada1{
+          position: absolute; /*elemento sobreposto*/
+          left: 250px;/* no plano cartesiano trata-se do eixo X*/
+          top: 200px;/* no plano cartesiano trata-se do eixo Y*/
+          width: 150px;
+          height: 120px;
+          background-color: aqua;
+          border: 5px solid #ee3c3c;
+          text-align: center;
+          font-size: 12px;
+          z-index: 1;
+       }
+
+       #camada2{
+        position: absolute;
+        top: 250px;
+        left: 300px;
+        width: 150px;
+        height: 120px;
+        background-color: rgb(223, 142, 21);
+        border: 5px solid rebeccapurple;
+        text-align: center;
+        font-size: 12px;
+        z-index: 2;
+       }
+
+       #camada3{
+        position: absolute;
+        top: 320px;
+        left: 350px;
+        width: 150px;
+        height: 120px;
+        background-color: blueviolet;
+        border: 5px solid palegreen;
+        text-align: center;
+        font-size: 12px;
+        z-index: 3;
+       }
+
+       #camada4{
+         position: absolute;
+         top: 400px;
+         left: 410px;
+         text-align: center;
+         z-index: 4;
+       }
+
+       img{
+         width: 150px;
+         height: 100px;
+       }

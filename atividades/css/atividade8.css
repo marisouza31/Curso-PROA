@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+main{
+   position: relative;
+   width: 90%;
+   height: 700px;
+   background-color: black;
+   margin: auto;
+   font-family: Verdana;
+
+}
+
+#cabecalho{
+   position: relative;
+   width: 100%;
+   height: 100px;
+   background-color: #0000;
+   display: flex;/*ativa recurso de alinhamento no componente*/
+   flex-direction: row;/*alinhamento em linha ou coluna*/
+   align-items: center;/*alinhamento vertical*/
+   justify-content: center;/*alinhamento horizontal*/
+}
+
+#cabecalho h1{
+   font-size: 2em;
+   color: white;
+   font-weight: normal; /*fonte com peso normal*/
+}
+
+nav{
+   position: relative;
+   width: 100%;
+   height: 30px;
+   background-color: rgb(31, 31, 138);
+   display: flex;/*ativa recurso de alinhamento no componente*/
+   flex-direction: row;/*alinhamento em linha ou coluna*/
+   align-items: center;/*alinhamento vertical*/
+   justify-content: space-around;/*alinhamento horizontal*/
+   font-size: 16px;
+}
+
+nav a{
+    position: relative;
+     width: 100px;
+     color: white;
+     text-decoration: none;/*retira o sublinhado*/
+     
+}
+
+nav a:hover{
+    color: black;
+    background-color: white;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    transition: 1s all;
+}
+
+.nav-lateral {
+    position: absolute;
+    top: 130px;
+    left: 0;
+    width: 20%;
+    height: calc(100% - 130px);
+    background-color: #d4d4b8;
+    color: white;
+    font-size: 2em;
+    font-family: Verdana;
+    display: flex;
+    flex-direction: column;
+    align-items: center;     
+    justify-content: flex-start; 
+    z-index: 1;
+}
+
+.nav-lateral :hover {
+    background-color: #b4b4b4; 
+    color: black;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    transition: 1s all;
+}
+
+#meio {
+    position: absolute;
+    top: 130px;
+    left: 20%; /* começa depois da nav-lateral */
+    width: 60%;
+    height: calc(100% - 130px);
+    background-color: white;
+    text-align: center;
+    font-size: 2em;
+    color: white;
+}
+
+aside {
+    position: absolute;
+    top: 130px; 
+    right: 0;
+    width: 20%; 
+    height: calc(100% - 130px);
+}
+
+aside img {
+    width: 100%;
+    height: 100%;
+}
+
+.header-meio {
+    width: 95%;
+    height: 40px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.header-meio h2 {
+    font-size:20px;
+    color: black;
+    font-weight: normal;
+}
+
+/* Ajuste para a div marrom */
+.div-marrom {
+    width: 95%;
+    height: 150px;
+    margin: 10px auto 0;  
+    background-color: rgb(128, 68, 0);
+    position: relative;
+}
+
+.div-marrom img {
+    width: 100%;
+    height: 100%;
+}
+
+p{
+    width: 93%;
+    margin: 10px auto;     
+    padding: 10px; 
+    color: black;     
+    font-family: Verdana;
+    font-size: 13px;
+    text-align: justify; 
+    background-color: rgb(164, 232, 253);
+    height: 95px;
+}
+
+/* Container das divs cinza */
+.container-divs {
+    width: 93%;          
+    margin: 10px auto 20px; 
+}
+
+.div-cinza {
+    background-color: #888888; 
+    color: white;
+    height: 120px; 
+    width: 30%; 
+    float: left;
+    margin-right: 5%; 
+    text-align: center;
+}
+
+/* Remove a margem direita da última div para não quebrar linha */
+.div-cinza:last-child {
+    margin-right: 0;
+}
+
+/* Imagem dentro da div cinza */
+.div-cinza img {
+    width: 100%;
+    height: 100%;
+}
+
+footer h3 {
+    width: 90%;
+    height: 80px;
+    margin: 20px auto 0;
+    background-color: #444;
+    color: white;
+    font-family: Verdana;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#rodape {
+  position: absolute;
+  clear: left;
+  top: 660px;  
+  width: 100%;
+  height: 40px;
+  color: white;
+  background-color: black;
+  font-size: 25px;
+  text-align: center;
+  z-index: 2;   
+}

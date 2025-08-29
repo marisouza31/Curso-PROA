@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+main{
+   position: relative;
+   width: 90%;
+   height: 700px;
+   background-color: black;
+   margin: auto;
+   font-family: Verdana;
+
+}
+
+#cabecalho{
+   position: relative;
+   width: 100%;
+   height: 100px;
+   background-color: #0000;
+   display: flex;/*ativa recurso de alinhamento no componente*/
+   flex-direction: row;/*alinhamento em linha ou coluna*/
+   align-items: center;/*alinhamento vertical*/
+   justify-content: center;/*alinhamento horizontal*/
+}
+
+#cabecalho h1{
+   font-size: 2em;
+   color: white;
+   font-weight: normal; /*fonte com peso normal*/
+}
+
+nav{
+   position: relative;
+   width: 100%;
+   height: 30px;
+   background-color: rgb(10, 10, 84);
+   display: flex;/*ativa recurso de alinhamento no componente*/
+   flex-direction: row;/*alinhamento em linha ou coluna*/
+   align-items: center;/*alinhamento vertical*/
+   justify-content: space-between;/*alinhamento horizontal*/
+   font-size: 2em;
+}
+
+nav a{
+    position: relative;
+     width: 100px;
+     color: white;
+     text-decoration: none;/*retira o sublinhado*/
+     
+}
+
+.nav-lateral {
+    position: absolute;
+    top: 130px;
+    left: 0;
+    width: 20%;
+    height: calc(100% - 130px);
+    background-color: #d3d3a0;
+    color: white;
+    font-size: 2em;
+    font-family: Verdana;
+    display: flex;
+    flex-direction: column;
+    align-items: center;     
+    justify-content: flex-start; 
+    z-index: 1;
+}
+
+#meio {
+    position: absolute;
+    top: 130px;
+    left: 20%; /* começa depois da nav-lateral */
+    width: 60%;
+    height: calc(100% - 130px);
+    background-color: pink;
+    text-align: center;
+    font-size: 2em;
+    color: white;
+}
+
+#barra-lateral {
+    position: absolute;
+    top: 130px; 
+    right: 0;
+    width: 20%; 
+    height: calc(100% - 130px);
+    background-color: rgb(255, 2, 200);
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    font-family: Verdana;
+}
+
+.header-meio {
+    width: 95%;
+    height: 40px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.header-meio h2 {
+    font-size: 17px;
+    color: black;
+    font-weight: normal;
+}
+
+.div-marrom {
+    width: 95%;
+    height: 150px;
+    margin: 10px auto 0;  
+    background-color: rgb(128, 68, 0);
+    color: white;
+    display: flex;
+    text-align: center;
+    font-size: 25px;
+    font-family: Verdana;
+    justify-content: center;
+}
+
+p{
+    width: 95%;
+    height: 130px;         
+    margin: 10px auto;     
+    color:black;     
+    font-family: Verdana;
+    font-size: 12px;
+    text-align: justify; 
+    background-color: rgb(119, 137, 236);
+}
+
+.container-divs{
+    width: 95%;           
+    margin: 0 auto 20px;    
+    display: flex;       
+    justify-content: space-between; 
+    gap: 10px;              
+}
+
+.div-cinza {
+    background-color: #888888; 
+    color: white;
+    width: 40%;           
+    height: 120px;            
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: Verdana;
+    font-size: 25px;
+}
+
+footer h3 {
+    width: 90%;
+    height: 80px;
+    margin: 20px auto 0;
+    background-color: #444;
+    color: white;
+    font-family: Verdana;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#rodape {
+  position: absolute;
+  clear: left;
+  top: 660px;  
+  width: 100%;
+  height: 40px;
+  color: white;
+  background-color: black;
+  font-size: 25px;
+  text-align: center;
+  z-index: 2;   
+}
+
+
+
+
+
+
+
+
+
+
+
