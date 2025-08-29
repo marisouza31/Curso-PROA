@@ -1,0 +1,27 @@
+Passo a passo para sacar dinheiro em banco:
+
+1. Chegar ao banco e passar pelas portas automáticas
+2. verificar se tem fila e aguardar a sua vez
+3. Quando chegar a vez, pegar a carteira no bolso
+4. Abrir a carteira
+5. Retirar o cartão de dentro da carteira
+6. Fechar a carteira
+7. Guardar a carteira novamente no bolso
+8. Inserir o cartão no compartimento do caixa
+9. Digitar os 3 dígitos da senha (código) do cartão.
+10. Acessar a conta do banco.
+11. Verificar se tem saldo disponível
+12. Confirmar que há saldo suficiente
+13. Selecionar a opção “Retirada de valores”.
+14. Informar o valor desejado para sacar
+15. Digitar a senha de confirmação da operação (outro código).
+16. Aguardar a validação da senha.
+17. Retirar o cartão do caixa eletrônico.
+18. Pegar novamente a carteira no bolso e abrir-la 
+19. Guardar o cartão dentro da carteira
+20. Retirar as cédulas liberadas pela máquina
+21. Colocar o dinheiro dentro da carteira e fecha-la
+22. Guardar a carteira no bolso
+23. Ir até as portas do banco
+24. Passar pelas portas automáticas do banco
+25. Sair do banco
