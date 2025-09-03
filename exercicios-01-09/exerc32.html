@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 32</title>
+</head>
+<body>
+    <script>
+        let notas = parseFloat(prompt("Coloque a nota de 0 a 10: "))
+        let conceito
+
+        if(notas >= 9){
+            conceito = "A"
+        }else if(notas >=7){
+            conceito = "B"
+        }else if(notas >=5){
+            conceito = "C"
+        }else if(notas >=3){
+            conceito = "D"
+        }else{
+            conceito = "E"
+        }
+
+        document.write("A nota é: " + notas + "<br>")
+        document.write("O conceito é: " + conceito + "<br>")
+    </script>
+</body>
+</html>

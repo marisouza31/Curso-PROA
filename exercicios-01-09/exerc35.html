@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 35</title>
+</head>
+<body>
+    <script>
+        let nota1 = parseInt(prompt("Escreva o primeiro número:"))
+        let nota2 = parseInt(prompt("Escreva o segundo número:"))
+        let nota3 = parseInt(prompt("Escreva o terceiro número:"))
+
+        let media = nota1 + nota2 + nota3 / 3
+        let situacao
+
+        if(media >= 7){
+            situacao = "Aprovado"
+        }else{
+            situacao = "Reprovado"
+        }
+
+        document.write("Notas: " + nota1 + ", " + nota2 + ", " + nota3 + "<br>")
+        document.write("Media: " + media + "<br>")
+        document.write("Situação: " + situacao)
+    </script>
+</body>
+</html>

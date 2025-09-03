@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 30</title>
+</head>
+<body>
+    <script>
+        let quantidade = parseInt(prompt("Coloque a quantidade de maçãs: "))
+        let preco
+
+        if(quantidade < 12){
+            preco = 0.50
+        }else{
+            preco = 0.40
+        }
+
+        let total = quantidade * preco
+
+        document.write("A quantidade comprada foi: " + quantidade + "<br>")
+        document.write("O preço unitario é de: " + preco + "<br>")
+        document.write("Total: " + total + "<br>")
+    </script>
+</body>
+</html>
