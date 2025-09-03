@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semaforo usando if</title>
+</head>
+<body>
+    <h1>Testando semaforo usando Javascript</h1>
+    <script>
+        let semaforo = prompt("Digite a cor do semáforo:")
+
+        if(semaforo == "vermelho"){
+            document.write("PARE!")
+        }else if(semaforo == "amarelo"){
+            document.write("ATENÇÃO")
+        }else if(semaforo == "verde"){
+            document.write("siga em frente")
+        }else{
+            document.write("erro! Cor do semaforo é inválida.")
+        }
+    </script>
+</body>
+</html>
