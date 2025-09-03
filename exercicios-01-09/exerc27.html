@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 27</title>
+</head>
+<body>
+    <script>
+         let idade = parseInt(prompt("Qual a sua idade?:"))
+         let sexo = prompt("Escreva o seu sexo (M ou F):").toUpperCase()
+
+        if (sexo !== "M" && sexo !== "F") {
+        alert("Sexo invalido! Coloque 'M' para masculino ou 'F' para feminino.")
+        } else if (isNaN(idade) || idade <= 0) {
+        alert("Idade esta invalida!")
+        } else {
+        if ((sexo === "M" && idade >= 65) || (sexo === "F" && idade >= 60)) {
+            alert("Voce pode se aposentar")
+        } else {
+            alert("Voce ainda não pode se aposentar")
+        }
+        }
+    </script>
+</body>
+</html>

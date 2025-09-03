@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 13</title>
+</head>
+<body>
+    <h1>Numeros multiplos:</h1>
+
+    <script>
+        let numero1 = parseInt(prompt("Escreva o primeiro numero:"))
+        let numero2 = parseInt(prompt("Escreva o segundo numero:"))
+
+        if (numero2 === 0) {
+        document.write("Não é possível dividir por zero.");
+        } else if (numero1 % numero2 === 0) {
+        document.write(numero1 + " é multiplo de " + numero2 + ".")
+        } else {
+        document.write(numero1 + " não é multiplo de " + numero2 + ".")
+        }
+    </script>
+</body>
+</html>

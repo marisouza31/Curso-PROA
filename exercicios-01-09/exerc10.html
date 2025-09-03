@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 10</title>
+</head>
+<body>
+    <h1>Tabuada de um numero inteiro:</h1>
+
+    <script>
+        let numero = parseInt(prompt("Escreva um numero inteiro:"))
+
+        document.write("<h2>Tabuada do " + numero + ":</h2>")
+
+         for (let i = 1; i <= 10; i++) {
+             let resultado = numero * i
+             document.write(numero + " x " + i + " = " + resultado + "<br>")
+         }
+    </script>
+</body>
+</html>

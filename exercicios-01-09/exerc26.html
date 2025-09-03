@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 26</title>
+</head>
+<body>
+
+    <script>
+        const produtos = {
+            1: 4.00,  // Refrigerante
+            2: 4.50,  // Batata
+            3: 5.00,  // Salada
+            4: 2.00,  // Pão
+            5: 1.50   // Suco
+        }
+
+
+        let codigo = parseInt(prompt("Coloque o código do produto de 1 a 5:"))
+        let quantidade = parseInt(prompt("Coloque a quantidade do produto:"))
+
+        if (produtos[codigo] === undefined) {
+            alert("Codigo de produto invalido")
+        } else if (isNaN(quantidade) || quantidade <= 0) {
+            alert("Quantidade invalida")
+        } else {
+      
+            let preco = produtos[codigo]
+            let total = preco * quantidade
+
+            alert(`Total: ${total}`)
+        }
+
+    </script>
+</body>
+</html>

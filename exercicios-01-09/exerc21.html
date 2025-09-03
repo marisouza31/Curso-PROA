@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 21</title>
+</head>
+<body>
+    <h1>Contador de idades:</h1>
+
+    <script>
+        let qtd = Number(prompt("Quantas pessoas você quer cadastrar?"))
+        let menores = 0, maiores = 0
+
+        for (let i = 1; i <= qtd; i++) {
+        let idade = Number(prompt("Escreva a idade da pessoa " + i + ":"))
+        idade < 18 ? menores++ : maiores++;
+        }
+
+        document.write(`<p>Menores de idade: ${menores}</p>`)
+        document.write(`<p>Maiores de idade: ${maiores}</p>`)
+    </script>
+</body>
+</html>

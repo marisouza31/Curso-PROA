@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 19</title>
+</head>
+<body>
+    <h1>Aprovação de aluno:</h1>
+
+    <script>
+        let nota1 = parseFloat(prompt("Escreva a primeira nota:"))
+        let nota2 = parseFloat(prompt("Escreva a segunda nota:"))
+        let nota3 = parseFloat(prompt("Escreva a terceira nota:"))
+
+       let media = (nota1 + nota2 + nota3) / 3
+
+    if (media >= 7) {
+      document.write("Aluno aprovado! Media: " + media)
+    } else {
+      document.write("Aluno reprovado. Media: " + media)
+    }
+    </script>
+</body>
+</html>

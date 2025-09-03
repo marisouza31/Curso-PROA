@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 22</title>
+</head>
+<body>
+    <h1>Salario com bonus:</h1>
+
+    <script>
+        let salario = parseFloat(prompt("Escreva o salario do funcionario:"))
+        let bonus
+
+        if (salario > 2000) {
+        bonus = salario * 0.10
+        } else {
+        bonus = salario * 0.05
+        }
+
+        document.write("Salario: " + salario + "<br>")
+        document.write("Bonus: " + bonus  + "<br>")
+    </script>
+</body>
+</html>

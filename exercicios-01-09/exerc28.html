@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 28</title>
+</head>
+<body>
+
+    <h1>Calculadora IMC</h1>
+    <script>
+       function calcularIMC() {
+            let peso = parseFloat(prompt("Coloque o seu peso em kg:"))
+            if (isNaN(peso) || peso <= 0) {
+                alert("Peso invalido")
+                return
+            }
+
+            let altura = parseFloat(prompt("Coloque a sua altura em metros:"))
+            if (isNaN(altura) || altura <= 0) {
+                alert("Altura invalida")
+                return
+            }
+
+            let imc = peso / (altura * altura)
+            let classificacao = ""
+
+            if (imc < 18.5) {
+                classificacao = "Abaixo do peso"
+            } else if (imc < 25) {
+                classificacao = "Peso normal"
+            } else if (imc < 30) {
+                classificacao = "Sobrepeso"
+            } else if (imc < 35) {
+                classificacao = "Obesidade grau I"
+            } else if (imc < 40) {
+                classificacao = "Obesidade grau II"
+            } else {
+                classificacao = "Obesidade grau III"
+            }
+
+            alert(`Seu IMC é ${imc}.\nClassificação: ${classificacao}.`)
+        }
+
+        calcularIMC()
+
+    </script>
+</body>
+</html>

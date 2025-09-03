@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 24</title>
+</head>
+<body>
+    <h1>Numeros em ordem crescente:</h1>
+
+    <script>
+        let numero1 = parseInt(prompt("Coloque o primeiro numero: "))
+        let numero2 = parseInt(prompt("Coloque o segundo numero: "))
+        let numero3 = parseInt(prompt("Coloque o terceiro numero: "))
+
+        let numeros = [numero1, numero2, numero3]
+        numeros.sort((a, b) => a - b)
+
+        document.write("Numeros em ordem crescente: " + numeros)
+    </script>
+</body>
+</html>
