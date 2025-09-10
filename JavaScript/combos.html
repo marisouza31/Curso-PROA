@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu de combos com Switch-case</title>
+</head>
+<body>
+    <h1>Menu de combos do McDonalds</h1>
+
+    <script>
+
+        let menu = "Escolha um combo de 1 a 5:\n"
+        menu += "1 - Combo 1: Batata frita media + Refri + Big Mac\n"
+        menu += "2 - Combo 2: Batata frita grande + Suco + McChase\n"
+        menu += "3 - Combo 3: Batata frita pequena + McSalada + Sorvete\n"
+        menu += "4 - Combo 4: Quarteirão + Refri + Batata frita media\n"
+        menu += "5 - Combo 5: Cheddar + Refri + Batata frita pequena"
+
+        let combos = prompt(menu)
+        let mensagem = ""
+
+        switch(combos){
+            case "1":
+                mensagem = "Combo 1: Batata frita media + Refri + Big Mac"
+                break;
+            case "2":
+                mensagem = "Combo 2: Batata frita grande + Suco + McChase"
+                break;
+            case "3":
+                mensagem = "Combo 3: Batata frita pequena + McSalada + Sorvete"
+                break;
+            case "4":
+                mensagem = "Combo 4: Quarteirão + Refri + Batata frita media"
+                break;
+            case "5":
+                mensagem = "Combo 5: Cheedar + Refri + Batata frita pequena"
+                break;
+            default: mensagem = "Opção invalida"
+        }
+
+          document.write("Seu combo é: " + mensagem)
+
+    </script>
+</body>
+</html>
