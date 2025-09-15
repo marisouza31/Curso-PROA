@@ -1,0 +1,8 @@
+body{
+        color: rgb(69, 4, 4);
+        text-align: center;
+    }
+#myImage{
+    width: 400px;
+    height: auto;
+}
