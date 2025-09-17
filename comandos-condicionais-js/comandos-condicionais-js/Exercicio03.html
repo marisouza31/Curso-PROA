@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 03</title>
+</head>
+<body>
+
+
+    <h1>CEF:</h1>
+
+    <script>
+
+        let saldoCliente = parseFloat(prompt("coloque o saldo médio do cliente:"))
+        let credito = 0
+
+        switch (true) {
+            case (saldoCliente >= 0 && saldoCliente <= 500): credito = 0
+                break;
+
+            case (saldoCliente >= 501 && saldoCliente <= 1000): credito = saldoCliente * 0.3
+                break;
+
+            case (saldoCliente >= 1001 && saldoCliente <= 3000): credito = saldoCliente * 0.4
+                break;
+
+            case (saldoCliente > 3000): credito = saldoCliente * 0.5
+                break;
+
+            default:
+                document.write("O saldo está inválido, coloque um valor válido!!")
+                break;
+        }
+
+        document.write("Saldo médio: " + saldoCliente.toFixed(2) + "<br>")
+        document.write("Crédito concedido: " + credito.toFixed(2) + "<br>")
+
+    </script>
+</body>
+</html>

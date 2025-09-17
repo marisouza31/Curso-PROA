@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 23</title>
+</head>
+<body>
+
+    <script>
+
+        let Numerosentre0e100
+        let Numerosentre101e200
+        let maioresQue200
+
+        for (let i = 1; i <= 20; i++) {
+            let numero = parseFloat(prompt(`coloque o ${i} numero:`))
+
+            if (numero >= 0 && numero <= 100) {
+                Numerosentre0e100++
+            } else if (numero >= 101 && numero <= 200) {
+                Numerosentre101e200++
+            } else if (numero > 200) {
+                maioresQue200++
+            }
+        }
+
+        document.write(`Numeros que estão entre 0 e 100: ${Numerosentre0e100}<br> 
+        Números que estão entre 101 e 200: ${Numerosentre101e200}
+        <br> Números que são maiores que 200: ${maioresQue200}`)
+    </script>
+</body>
+</html>

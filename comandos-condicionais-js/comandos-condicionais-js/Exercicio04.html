@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 04</title>
+</head>
+<body>
+
+    <h1>Valores descrecente:</h1>
+
+
+    <script>
+
+        let A = parseFloat(prompt("Coloque um valor para A:"))
+        let B = parseFloat(prompt("Coloque um valor para B:"))
+        let C = parseFloat(prompt("Coloque um valor para C:"))
+
+        let numeros = [A, B, C]
+
+        numeros.sort(function(A, B) {
+            return B - A
+        })
+
+        document.write("Valores em ordem decrescente: ")
+        document.write("<p>" + numeros.join(" - ") + "</p>")
+
+        
+    </script>
+</body>
+</html>

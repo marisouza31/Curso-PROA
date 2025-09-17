@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 01</title>
+</head>
+<body>
+
+
+    <h1>Quantidade total de calorias:</h1>
+
+
+    <script>
+        let prato = parseInt(prompt( "Escolha seu prato:\n" + "1 - Vegetariano (180 cal)\n" + "2 - Peixe (230 cal)\n" +
+         "3 - Frango (250 cal)\n" + "4 - Carne (350 cal)" ));
+
+        let calorias
+
+        switch (prato) {
+            case 1:
+                caloriasDoPrato = 180
+                break;
+            case 2:
+                caloriasDoPrato = 230
+                break;
+            case 3:
+                caloriasDoPrato = 250
+                break;
+            case 4:
+                caloriasDoPrato = 350
+                break;
+            default:
+                alert("Opção inválida")
+                break;
+        }
+
+        let sobremesa = parseInt(prompt("Escolha sua sobremesa:\n" +"1 - Abacaxi (75 cal)\n" + "2 - Sorvete diet (110 cal)\n" +
+            "3 - Mousse diet (170 cal)\n" + "4 - Mousse chocolate (200 cal)"));
+
+        let caloriasSobremesa;
+
+        switch (sobremesa) {
+            case 1:
+                caloriasDaSobremesa = 75
+                break;
+            case 2:
+                caloriasDaSobremesa = 110
+                break;
+            case 3:
+                caloriasDaSobremesa = 170
+                break;
+            case 4:
+                caloriasDaSobremesa = 200
+                break;
+            default:
+                alert("Opção inválida")
+                break;
+        }
+
+        let bebida = parseInt(prompt("Escolha sua bebida:\n" + "1 - Chá (20 cal)\n" +"2 - Suco de laranja (70 cal)\n" +
+            "3 - Suco de melão (100 cal)\n" + "4 - Refrigerante diet (65 cal)"));
+
+        let caloriasDaBebida
+
+        switch (bebida) {
+            case 1:
+                caloriasDaBebida = 20
+                break;
+            case 2:
+                caloriasDaBebida = 70
+                break;
+            case 3:
+                caloriasDaBebida = 100
+                break;
+            case 4:
+                caloriasDaBebida = 65
+                break;
+            default:
+                alert("Opção inválida")
+                break;
+        }
+
+        let totalCalorias = caloriasDoPrato + caloriasDaSobremesa + caloriasDaBebida
+
+        document.write(`Sua refeição: <br>
+            Calorias do prato: ${caloriasDoPrato} cal <br> 
+            Calorias da sobremesa:  ${caloriasDaSobremesa} cal <br>
+            Calorias da bebida: ${caloriasDaBebida} cal <br>
+            Total de calorias: ${totalCalorias} cal <br>`)
+    </script>
+</body>
+</html>
