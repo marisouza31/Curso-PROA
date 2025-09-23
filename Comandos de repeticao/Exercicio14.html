@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 14</title>
+</head>
+<body>
+    <script>
+        let entre0e100 = 0
+        let entre101e200 = 0
+        let maiores200 = 0
+
+        for (let i = 1; i <= 20; i++) {
+            let numero = parseFloat(prompt(`Coloque um${i}º numero:`))
+
+            if (numero >= 0 && numero <= 100) {
+                entre0e100++
+            } else if (numero >= 101 && numero <= 200) {
+                entre101e200++
+            } else if (numero > 200) {
+                maiores200++
+            }
+        }
+
+
+        document.write(`Numeros entre 0 e 100: ${entre0e100}<br>`)
+        document.write(`Numeros entre 101 e 200: ${entre101e200}<br>`)
+        document.write(`Numeros maiores que 200: ${maiores200}<br>`)
+    </script>
+</body>
+</html>

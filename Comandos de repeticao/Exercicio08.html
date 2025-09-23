@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 08</title>
+</head>
+<body>
+    <script>
+        let maiores = 0
+
+        for (let i = 1; i <= 20; i++) {
+            let idade = parseInt(prompt(`Coloque a idade da ${i}ª pessoa:`))
+
+            if (idade >= 18) {
+                maiores++
+            }
+        }
+
+        document.write(`O número de pessoas maiores de idade é: ${maiores}`)
+    </script>
+</body>
+</html>

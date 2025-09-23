@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 12</title>
+</head>
+<body>
+    <script>
+
+
+        let contadorPares = 0
+
+        for (let i = 1; i <= 20; i++) {
+            let numero = parseInt(prompt(`Coloque um ${i}º número:`))
+
+            if (numero % 2 === 0) {
+                contadorPares++
+            }
+        }
+
+
+        document.write(`A quantidade de numeros pares digitados é de: ${contadorPares}`)
+    </script>
+</body>
+</html>

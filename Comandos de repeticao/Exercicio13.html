@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 13</title>
+</head>
+<body>
+    <script>
+        
+        let contador = 0
+
+        for (let i = 1; i <= 20; i++) {
+            let numero = parseFloat(prompt(`Coloque um ${i}º numero:`))
+
+            if (numero >= 0 && numero <= 100) {
+                contador++
+            }
+        }
+
+
+        document.write(`A quantidade de numeros entre 0 e 100 é de: ${contador}`)
+    </script>
+</body>
+</html>
