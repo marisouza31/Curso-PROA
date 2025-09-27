@@ -1,0 +1,13 @@
+.conteudo {
+  background: lightgray;
+  flex: 1;
+  padding: 10px;
+  position: relative;
+}
+
+.camera {
+  position: absolute;
+  bottom: 6px; 
+  right: -30px;
+  width: 30%; 
+}

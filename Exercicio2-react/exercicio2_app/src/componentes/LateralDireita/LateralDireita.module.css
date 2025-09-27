@@ -1,0 +1,16 @@
+.ld {
+  background-color: lightsteelblue;
+  width: 150px;
+  height: 400px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.box {
+  background-color: white;
+  height: 150px; 
+  min-width: 50px;
+  flex: none; 
+}

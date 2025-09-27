@@ -1,0 +1,10 @@
+.main {
+  position: relative;
+  width: 900px;
+  margin: 0 auto;
+}
+
+.body {
+  display: flex;
+  min-height: 400px; 
+}
