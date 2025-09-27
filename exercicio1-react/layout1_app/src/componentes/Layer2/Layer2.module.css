@@ -1,0 +1,9 @@
+.layer {
+  display: inline-block;
+  width: calc(100% - 150px);
+  height: 100px;
+  background-color: red;
+  color: black;
+  text-align: center;
+  vertical-align: top;
+}
