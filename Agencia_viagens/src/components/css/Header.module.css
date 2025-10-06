@@ -1,0 +1,52 @@
+header{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+
+}
+
+
+.navegacao {
+    display: flex;
+    width: 40%;
+    height: auto;
+    margin: auto;
+    gap: 20px;
+}
+
+.navegacao a {
+    font-size: 15px;
+}
+
+.Busca {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    background-color: blue;
+}
+
+input[type="text"] {
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid gray;
+    
+}
+
+.lupa {
+    width: 30px ;
+    height: 30px;
+}
+
+
+
